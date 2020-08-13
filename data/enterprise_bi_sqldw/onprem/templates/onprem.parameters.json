@@ -29,8 +29,8 @@
                         "namePrefix": "sql",
                         "size": "Standard_DS3_v2",
                         "computerNamePrefix": "sql",
-                        "adminUsername": "adminUser",
-                        "adminPassword": "testPassw0rd!23",
+                        "adminUsername": "CRUser",
+                        "adminPassword": "testPassw000!23",
                         "osType": "windows",
                         "imageReference": {
                             "publisher": "MicrosoftSQLServer",
@@ -113,8 +113,8 @@
                                 "protectedSettings": {
                                     "configurationArguments": {
                                         "SqlUserCredentials": {
-                                          "userName": ".\\adminUser",
-                                          "password": "testPassw0rd!23"
+                                          "userName": "CRUser",
+                                          "password": "testPassw000!23"
                                         }
                                     }
                                 }
